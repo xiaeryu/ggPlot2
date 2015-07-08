@@ -23,3 +23,8 @@ p + geom_segment(x = 5, y = 30, xend = 3.5, yend = 25)
 ```R
 p + geom_step()
 ```
+<br><br>
+####Output feagures of the commands above:
+
+![geomObjects_line.png](https://github.com/xiaeryu/Figures/blob/master/ggPlot2/geomObjects_line.png)
+Script used to plot the figures: [geomObjects_line.r](https://github.com/xiaeryu/ggPlot2/blob/master/scripts/geomObjects_line.r)
