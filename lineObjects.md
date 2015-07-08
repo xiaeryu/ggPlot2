@@ -1,0 +1,25 @@
+Geometric Objects : Lines
+==============================
+**geom_abline**: adds a line with specified slope and intercept to the plot  
+**geom_vline**: annotate the plot with vertical lines  
+**geom_hline**: annotate the plot with horizontal lines
+
+```R
+p + geom_abline(intercept = 37, slope = -5)
+p + geom_vline(xintercept = 5)
+p + geom_hline(yintercept = 20)
+```
+
+**geom_line**: Connect observations, ordered by x value.
+```R
+p + geom_line()
+```
+**geom_segment**: plots single line segments
+```R
+p + geom_segment(x = 5, y = 30, xend = 3.5, yend = 25)
+```
+
+**geom_step**: Connect observations by stairs.
+```R
+p + geom_step()
+```
