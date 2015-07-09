@@ -1,10 +1,6 @@
 Geometric Objects : Points
 ==============================
 * **geom_point**: create scatterplots
-```R
-ggplot(mtcars, aes(mpg, wt)) + geom_point(aes(colour = factor(cyl)))
-```
-
 * **geom_jitter**: points are jittered to reduce overplotting
 ```R
 p <- ggplot(mpg, aes(displ, hwy))
