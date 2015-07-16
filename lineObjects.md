@@ -28,3 +28,12 @@ p + geom_step()
 
 ![geomObjects_line.png](https://github.com/xiaeryu/Figures/blob/master/ggPlot2/geomObjects_line.png)
 Script used to plot the figures: [geomObjects_line.r](https://github.com/xiaeryu/ggPlot2/blob/master/scripts/geomObjects_line.r)
+
+* **geom_path**: Connect observations in original order
+```R
+df <- data.frame(x=c(1,2,3,4,5,6,7),y=c(3,54,6,82,1,34,5))
+p -> ggplot(df,aes(x,y)) 
+p + geom_path()
+```
+
+
