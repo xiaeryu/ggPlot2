@@ -18,3 +18,10 @@ c + geom_bar(position="dodge")  # placed side by side
 c <- ggplot(mtcars, aes(x = mpg))
 c + geom_dotplot()
 ```
+* **geom_rect**： 2d rectangles
+```R
+df <- data.frame(x = sample(10, 20, replace = TRUE),y = sample(10, 20, replace = TRUE))
+c <- ggplot(df, aes(xmin = x, xmax = x + 1, ymin = y, ymax = y + 1))
+c+geom_rect()
+```
+
