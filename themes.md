@@ -70,3 +70,13 @@ Arguments
 * **theme**: Use this function to modify theme settings.
 * **add_theme**: Modify properties of an element in a theme object.
 * **is.theme**: Reports whether x is a theme object.
+* **theme_bw**: A theme with white background and black gridlines.
+* **theme_grey**: A theme with grey background and white gridlines.
+* **element_blank**: This theme element draws nothing, and assigns no space.
+* **element_line**: Theme element: line.
+* **element_rect**: Most often used for backgrounds and borders.
+* **element_text**: Theme element: text.
+* **rel**: Relative sizing for theme elements.
+* **is.rel**: Reports whether x is a rel object.
+* **theme_update, theme_get, theme_set**: Use theme_update to modify a small number of elements of the current theme or use theme_set to completely override it.
+* **calc_element**: Calculate the element properties, by inheriting properties from its parents.
