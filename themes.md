@@ -73,6 +73,7 @@ Arguments
 * **theme_bw**: A theme with white background and black gridlines.
 * **theme_grey**: A theme with grey background and white gridlines.
 * **theme_classic**: A classic-looking theme, with x and y axis lines and no gridlines.
+* **theme_minimal**: A minimalistic theme with no background annotations.
 * **element_blank**: This theme element draws nothing, and assigns no space.
 * **element_line**: Theme element: line.
 * **element_rect**: Most often used for backgrounds and borders.
