@@ -14,7 +14,9 @@ c + geom_bar(position="dodge")  # placed side by side
 ```
 
 * **geom_dotplot**: the width of a dot corresponds to the bin width (or maximum width, depending on the binning algorithm), and dots are stacked, with each dot representing one observation.
+* **stat_bindot**: statistics for dotplot.
 ```R
 c <- ggplot(mtcars, aes(x = mpg))
 c + geom_dotplot()
+c + stat_bindot()
 ```
