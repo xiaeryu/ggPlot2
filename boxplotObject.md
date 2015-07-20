@@ -17,3 +17,13 @@ p <- ggplot(mtcars, aes(factor(cyl), mpg))
 p + geom_violin()
 p + stat_ydensity()
 ```
+
+* **geom_quantile**: Add quantile lines from a quantile regression. This can be used as a continuous analogue of a geom_boxplot.
+* **stat_quantile**: Continuous quantiles.
+```R
+msamp <- movies[sample(nrow(movies), 1000), ]
+m <- ggplot(msamp, aes(year, rating)) + geom_point()
+m + stat_quantile()
+q10 <- seq(0.05, 0.95, by=0.05)
+m + stat_quantile(quantiles = q10)
+```
