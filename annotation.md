@@ -1,6 +1,12 @@
 Annotation
 ====================
 
+* **geom_text**: Textual annotations.
+```R
+p <- ggplot(mtcars, aes(x=wt, y=mpg, label=rownames(mtcars)))
+p + geom_text()
+```
+
 * **annotate**: This function adds geoms to a plot. Unlike typical a geom function, the properties of the geoms are not mapped from variables of a data frame, but are instead in as vectors. This is useful for adding small annotations (such as text labels) or if you have your data in vectors, and for some reason don't want to put them in a data frame.
 
 ```R
