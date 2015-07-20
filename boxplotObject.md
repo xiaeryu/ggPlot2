@@ -32,3 +32,5 @@ m + stat_quantile(quantiles = q10)
 * **stat_smooth**: Add a smoother.
 ```R
 c <- ggplot(mtcars, aes(qsec, wt))
+c + stat_smooth() + geom_point()
+```
