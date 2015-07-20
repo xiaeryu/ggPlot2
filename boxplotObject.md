@@ -27,3 +27,8 @@ m + stat_quantile()
 q10 <- seq(0.05, 0.95, by=0.05)
 m + stat_quantile(quantiles = q10)
 ```
+
+* **geom_smooth**: Add a smoothed conditional mean.
+* **stat_smooth**: Add a smoother.
+```R
+c <- ggplot(mtcars, aes(qsec, wt))
