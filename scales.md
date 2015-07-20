@@ -33,3 +33,4 @@ Axis
 * **labs, xlab, ylab, ggtitle**: Change axis labels and legend titles.
 * **expand_limits**: Expand the plot limits with data.
 * **update_labels**: Update axis/legend labels. 
+* **geom_rug**: Marginal rug plots.
