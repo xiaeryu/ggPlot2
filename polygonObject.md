@@ -29,10 +29,17 @@ c + geom_rect()
 ```
 * **geom_hex**: Hexagon bining.
 * **stat_binhex**: Bin 2d plane into hexagons.
+* **stat_summary_hex**: Apply function for 2D hexagonal bins.
+* **stat_summary2d**: Apply function for 2D rectangular bins.
 ```R
 d <- ggplot(diamonds, aes(carat, price))
 d + stat_binhex()
 d + geom_hex()
+d <- ggplot(diamonds, aes(carat, depth, z = price))
+d + stat_summary_hex(fun = function(x) sum(x^2))
+d + stat_summary2d(fun = function(x) sum(x^2))
+d + stat_summary_hex(fun = var, na.rm = TRUE)
+d + stat_summary2d(fun = var, na.rm=TRUE)
 ```
 
 * **geom_tile**: plot tiles
