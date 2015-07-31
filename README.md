@@ -1,7 +1,4 @@
 ggPlot2
 ====================
-Visualization practices with the ggplot2 package in R.
 
-####Geom Objects
-* [**Lines**](https://github.com/xiaeryu/ggPlot2/blob/master/lineObjects.md)
-* [**Points**](https://github.com/xiaeryu/ggPlot2/blob/master/pointObjects.md)
+Whatever you want to plot, you need the **[Aesthetics]**(https://github.com/xiaeryu/ggPlot2/blob/master/aesthetics.md) to hlep you specify the data to plot and the feature to plot!
