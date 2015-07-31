@@ -2,7 +2,6 @@ Data
 ----------
 * **cut_interval**: Cut numeric vector into intervals of equal length.
 * **cut_number**: Cut numeric vector into intervals containing equal number of points.
-* 
 
 Plot
 ----------
