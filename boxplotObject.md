@@ -17,6 +17,7 @@ p <- ggplot(mtcars, aes(factor(cyl), mpg))
 p + geom_violin()
 p + stat_ydensity()
 ```
+![](https://github.com/xiaeryu/Figures/blob/master/geomObjects_boxplot1.png)
 
 * **geom_quantile**: Add quantile lines from a quantile regression. This can be used as a continuous analogue of a geom_boxplot.
 * **stat_quantile**: Continuous quantiles.
@@ -31,6 +32,6 @@ m + stat_quantile(quantiles = q10)
 * **geom_smooth**: Add a smoothed conditional mean.
 * **stat_smooth**: Add a smoother.
 ```R
-c <- ggplot(mtcars, aes(qsec, wt))
-c + stat_smooth() + geom_point()
+m + geom_smooth()
 ```
+![](https://github.com/xiaeryu/Figures/blob/master/geomObjects_boxplot2.png)
