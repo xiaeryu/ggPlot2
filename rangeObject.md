@@ -18,6 +18,7 @@ se + geom_pointrange()
 se + geom_errorbar()
 se + geom_crossbar()
 ```
+![](https://github.com/xiaeryu/Figures/blob/master/geomObjects_range1.png)
 
 Continuous
 -------------------------
@@ -30,3 +31,4 @@ h <- ggplot(huron, aes(x=year))
 h + geom_ribbon(aes(ymin=level-1, ymax=level+1))
 h + geom_area(aes(y=level))
 ```
+![](https://github.com/xiaeryu/Figures/blob/master/geomObjects_range2.png)
