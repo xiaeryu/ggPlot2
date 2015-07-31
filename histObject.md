@@ -16,8 +16,11 @@ p + stat_bin()
 p + geom_density()
 p + stat_density()
 p + geom_freqpoly()
-
+```
+![](https://github.com/xiaeryu/Figures/blob/master/geomObjects_hist1.png)
+```R
 d <- ggplot(diamonds, aes(carat, price))
 d + geom_bin2d()
 d + stat_bin2d()
 ```
+![](https://github.com/xiaeryu/Figures/blob/master/geomObjects_hist2.png)
