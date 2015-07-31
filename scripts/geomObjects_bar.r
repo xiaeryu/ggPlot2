@@ -10,3 +10,6 @@ d1 <- d + geom_bar() + ggtitle("on top")                        # accumulate arr
 d2 <- d + geom_bar(position="dodge") + ggtitle("side by side")  # placed side by side
 
 multiplot(c1,c2,d1,d2,cols=2)
+
+e <- ggplot(mtcars, aes(x = mpg))
+e + geom_dotplot()
